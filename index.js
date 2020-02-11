@@ -38,14 +38,14 @@ function johnLennonFacts(facts) {
   return devuelve;
 }
 
-// function iLoveTheBeatles(nro) {
-//   var devuelve = [];
-//   var i = 15 - nro;
-//
-//   do {
-//     devuelve.push("I love the Beatles!");
-//     i++;
-//   } while (i < 15);
-//
-//   return devuelve;
-// }
+function iLoveTheBeatles(nro) {
+  var devuelve = [];
+  var i = 0;
+
+  do {
+    devuelve.push("I love the Beatles!");
+    i++;
+  } while (i < (15 - nro));
+
+  return devuelve;
+}
