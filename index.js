@@ -19,33 +19,33 @@ function theBeatlesPlay(musicians, instruments) {
 //   "He was a choir boy and boy scout",
 //   "He hated the sound of his own voice"
 // ];
-// 
+//
 // function johnLennonFacts(facts) {
 //   var devuelve = [];
-// 
+//
 //   // esta es otra posible solucion
 //   // for (var i = 0; i < facts.length; i++) {
 //   //   devuelve.push(`${facts[i]}!!!`);
 //   // }
-// 
+//
 //   var i = 0;
-// 
+//
 //   while (i < facts.length) {
 //     devuelve.push(`${facts[i]}!!!`);
 //     i++;
 //   }
-// 
+//
 //   return devuelve;
 // }
-// 
+//
 // function iLoveTheBeatles(nro) {
 //   var devuelve = [];
 //   var i = 15 - nro;
-// 
+//
 //   do {
 //     devuelve.push("I love the Beatles!");
 //     i++;
 //   } while (i < 15);
-// 
+//
 //   return devuelve;
 // }
