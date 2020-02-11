@@ -28,7 +28,7 @@ function johnLennonFacts(facts) {
   //   devuelve.push(`${facts[i]}!!!`);
   // }
 
-  while (i < facts.length);
+  while (i < facts.length) {
     devuelve.push(`${facts[i]}!!!`);
     i++;
   }
