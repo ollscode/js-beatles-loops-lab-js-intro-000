@@ -35,3 +35,15 @@ function johnLennonFacts(facts) {
 
   return devuelve;
 }
+
+function iLoveTheBeatles(nro) {
+  var devuelve = [];
+  var veces = 15 - nro;
+
+  do {
+    devuelve.push("I love the Beatles!");
+    i++;
+  } while (i < 15);
+
+  return devuelve;
+}
