@@ -23,8 +23,14 @@ var facts = [
 function johnLennonFacts(facts) {
   var devuelve = [];
 
-  for (var i = 0; i < facts.length; i++) {
+  // esta es otra posible solucion
+  // for (var i = 0; i < facts.length; i++) {
+  //   devuelve.push(`${facts[i]}!!!`);
+  // }
+
+  while (i < facts.length);
     devuelve.push(`${facts[i]}!!!`);
+    i++;
   }
 
   return devuelve;
