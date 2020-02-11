@@ -7,7 +7,7 @@ function theBeatlesPlay(musicians, instruments) {
   var frases = [];
 
   for (var i = 0; i < musicians.length; i++) {
-    frases.push(`"${musicians[i]} plays ${instruments[i]}"`);
+    frases.push(`${musicians[i]} plays ${instruments[i]}`);
   }
 
   return frases;
